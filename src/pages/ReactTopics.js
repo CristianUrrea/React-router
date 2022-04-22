@@ -23,7 +23,7 @@ const ReactTopics = () => {
         <Route path="/props" element={<h3>Docs Props</h3>}></Route>
         <Route path="/status" element={<h3>Docs Estados</h3>}></Route>
         <Route path="/components" element={<h3>Docs Componentes</h3>}></Route>
-        <Route path="/*" element={<Error404 />}></Route>
+        <Route path="react/*" element={<Error404 />}></Route>
       </Routes>
     </div>
   );
