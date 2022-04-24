@@ -30,11 +30,6 @@ const BasicsConcepts = () => {
           <Link to="/about">Acerca</Link>
           <Link to="/contact">Contacto</Link>
         </nav>
-        {/* <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes> */}
         <MenuConcepts />
         <Routes>
           <Route path="/" element={<Home />} />

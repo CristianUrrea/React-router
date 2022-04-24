@@ -1,4 +1,6 @@
 import BasicsConcepts from "./components/BasicsConcepts";
+import CrudApi from "./components/CrudApi";
+import SongSearch from "./components/SongSearch";
 
 function App() {
   return (
@@ -11,8 +13,10 @@ function App() {
       >
         Documentación
       </a>
+      {/* <SongSearch /> */}
+      <CrudApi />
       <hr />
-      <BasicsConcepts />
+      {/* <BasicsConcepts /> */}
     </div>
   );
 }
